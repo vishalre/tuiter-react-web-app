@@ -252,12 +252,15 @@ p#id-selector-2 {
 .animation-keyframes {
     position: relative;
     top: 0px;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-name: slidein;
     width: 200px;
     height: 200px;
     background-color: red;
     color: white;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+
 }
 
 @keyframes slidein {
@@ -266,19 +269,19 @@ p#id-selector-2 {
         top: 0px;
         font-size: 100%;
         margin-left: 100%;
-        width: 200px;
-        height: 200px;
-        background-color: yellow;
+        width: 300px;
+        height: 300px;
+        background-color: blue;
         color: black;
     }
     50% {
         position: relative;
         top: -200px;
-        font-size: 300%;
+        font-size: 200%;
         margin-left: 25%;
         width: 400px;
         height: 400px;
-        background-color: blue;
+        background-color: lightblue;
         color: white;
     }
 
@@ -287,8 +290,8 @@ p#id-selector-2 {
         top: 0px;
         font-size: 100%;
         margin-left: 0%;
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
         background-color: red;
         color: white;
     }
