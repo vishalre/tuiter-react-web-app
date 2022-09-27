@@ -1,0 +1,54 @@
+body{
+    background: black;
+    margin-left: 12px;
+    border-color: rgb(47, 51, 54);
+}
+.wd-search {
+    border-radius: 40px;
+    background-color: darkgray;
+    border-style: solid;
+    padding-left: 30px;
+    height: 30px;
+    width: 50%;
+    color: white;
+    border-color: rgb(47, 51, 54);
+}
+
+a{
+    text-decoration: none;
+    padding: 16px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-link{
+     color: rgb(29,161,242);
+     border-bottom:1px solid;
+}
+
+.wd-links-container{
+    margin-top: 20px;
+    border: 1px;
+    color: white;
+    margin-bottom: 40px;
+}
+.wd-container{
+    border: 1px solid rgb(47, 51, 54);
+}
+.wd-topic{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-title {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-tuits {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+::placeholder{
+    color: black;
+}
