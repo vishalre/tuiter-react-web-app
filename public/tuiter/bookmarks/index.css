@@ -1,42 +1,44 @@
-p{
+p {
     margin: 0px;
 }
-body{
+
+body {
     background-color: black;
 }
-.wd-main-heading{
+
+.wd-main-heading {
     font-size: 20px;
     color: white;
     font-family: "Segoe UI";
 }
 
-.wd-bg-main{
+.wd-bg-main {
     background-color: black;
     width: 100%;
 }
 
-.wd-top-div{
+.wd-top-div {
     border: 1px grey solid;
     height: 50px;
     margin-right: 800px;
 }
 
-.wd-handle{
+.wd-handle {
     font-size: 13px;
     color: grey;
     padding-bottom: 12px;
 
 }
 
-.wd-top-padding{
+.wd-top-padding {
     padding-top: 12px;
 }
 
-.wd-left-padding{
+.wd-left-padding {
     padding-left: 16px;
 }
 
-.wd-circle-avatar{
+.wd-circle-avatar {
     border-radius: 50%;
     height: 48px;
     width: 48px;
@@ -44,31 +46,31 @@ body{
     align-content: center
 }
 
-.wd-user{
+.wd-user {
     color: white;
     font-size: 15px;
     font-family: "Segoe UI";
 }
 
-.wd-avatar-div{
+.wd-avatar-div {
     background-color: black;
     float: left;
     align-items: center;
 }
 
-.wd-content-div{
+.wd-content-div {
 
     background-color: black;
     float: left;
 
 }
 
-.wd-main-content-picture{
-    border-radius: 30px 30px 0 0 ;
+.wd-main-content-picture {
+    border-radius: 30px 30px 0 0;
     align-content: center;
 }
 
-.wd-content-div-main{
+.wd-content-div-main {
     height: 650px;
     margin-right: 800px;
     background-color: black;
@@ -96,31 +98,41 @@ body{
     padding: 12px;
     color: grey;
 }
-.wd-img-content-div{
+
+.wd-img-content-div {
     max-width: 506px;
     padding-top: 12px;
 }
-.wd-main-content{
+
+.wd-main-content {
     max-width: 506px;
     padding-bottom: 12px;
 }
 
-.wd-icons-div{
+.wd-icons-div {
     margin-left: 20px;
     margin-top: 5px;
 }
-.wd-icons{
-    font-size:15px;
-    color:grey;
+
+.wd-icons {
+    font-size: 15px;
+    color: grey;
 }
-.wd-icon-stats{
+
+.wd-icon-stats {
     margin-left: 12px;
     margin-right: 40px;
     color: grey;
 }
-.wd-heart-icon{
-    color: rgb(224,36,94)
+
+.wd-heart-icon {
+    color: rgb(224, 36, 94)
 }
-.wd-heart-stats{
-    color: rgb(224,36,94)
+
+.wd-heart-stats {
+    color: rgb(224, 36, 94)
+}
+
+.wd-icon-click {
+    text-decoration: none;
 }

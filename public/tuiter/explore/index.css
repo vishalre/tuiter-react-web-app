@@ -1,8 +1,9 @@
-body{
+body {
     background: black;
     margin-left: 12px;
     border-color: rgb(47, 51, 54);
 }
+
 .wd-search {
     border-radius: 40px;
     background-color: darkgray;
@@ -14,40 +15,46 @@ body{
     border-color: rgb(47, 51, 54);
 }
 
-a{
+a {
     text-decoration: none;
     padding: 16px;
     font-size: 15px;
     color: rgb(110, 118, 125);
 }
-.wd-link{
-    color: rgb(29,161,242);
-    border-bottom:3px solid;
+
+.wd-link {
+    color: rgb(29, 161, 242);
+    border-bottom: 3px solid;
 }
 
-.wd-links-container{
+.wd-links-container {
     margin-top: 20px;
     border: 1px;
     color: white;
     margin-bottom: 40px;
-    font-weight:bold;
+    font-weight: bold;
 }
-.wd-container-posts{
+
+.wd-container-posts {
     padding-left: 15px;
 }
-.wd-container-author{
+
+.wd-container-author {
     padding: 10px;
     display: flex;
 }
-.wd-topic{
+
+.wd-topic {
     color: rgb(110, 118, 125);
     font-size: 13px;
 }
-.wd-topic-author{
+
+.wd-topic-author {
     color: rgb(110, 118, 125);
     font-size: 13px;
     float: left;
 }
+
 .wd-title {
     color: white;
     font-weight: bold;
@@ -64,38 +71,44 @@ a{
     padding-top: 5px;
 }
 
-::placeholder{
+::placeholder {
     color: black;
 }
-.wd-simple-posts-div{
+
+.wd-simple-posts-div {
     border-color: rgb(47, 51, 54);
     border-style: solid;
 }
-.wd-topic-author-name{
+
+.wd-topic-author-name {
     font-weight: bold;
-    color:white;
+    color: white;
     font-size: 13px;
     margin-right: 5px;
 }
 
-.wd-tuit-author-image-div{
+.wd-tuit-author-image-div {
     width: 50%;
 }
-.wd-tuit-author-tuit-div{
+
+.wd-tuit-author-tuit-div {
     width: 50%;
 }
-.wd-tuit-image{
+
+.wd-tuit-image {
     float: right;
     margin-right: 16px;
     border-radius: 25px;
 }
-.wd-ellipsis{
+
+.wd-ellipsis {
     align-items: center;
 }
-.wd-gear-icon{
+
+.wd-gear-icon {
     font-size: 35px;
     float: right;
-    color: rgb(29,161,242);
+    color: rgb(29, 161, 242);
     margin-right: 12px;
     margin-bottom: 10px;
 }
