@@ -1,15 +1,15 @@
 const PostItem = (posts) => {
     return(
         `
-        <div class="list-group-item">
+         <div class="list-group-item">
                     <div class="row">
                         <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2">
                             <img src="${posts.image}" class="wd-rounded-images" width="50px" height="50px">
                         </div>
-                        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 p-0">
+                        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 p-0" style="margin-left: -30px">
                             <span class="wd-font-color">${posts.username}</span>
-                            <i class="fa fa-circle-check fa-inverse"></i><br>
-                            <span class="wd-gray-color">${posts.handle}&nbsp;.&nbsp;${posts.timeframe}</span><br>
+                            <i class="fa fa-circle-check fa-inverse"></i>
+                            <span class="wd-gray-color">${posts.handle}&nbsp;-&nbsp;${posts.timeframe}</span><br>
                             <span class="wd-font-color">${posts.content}</span>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ const PostItem = (posts) => {
                             </div>`:''}
                         </div>
                     </div>
-                    <div class="row mt-2">
+                    <div class="row mt-2 ms-5">
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
                         <i class='far fa-comment wd-gray-color'>&nbsp;${posts.commentNumber}</i>
                     </div>
