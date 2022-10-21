@@ -24,7 +24,7 @@ const ExploreComponent = () => {
             <div className="row mt-0">
                 <ul className="nav nav-tabs my-2 ps-0 wd-nav-bg-border">
                     <li className="nav-item active">
-                        <Link  to="#" className="nav-link wd-nav-item">For You</Link>
+                        <Link  to="#" className="nav-link wd-nav-item" style={{"color":"white", "background-color" : "rgb(10, 90, 206)"}} >For You</Link>
                     </li>
                     <li className="nav-item">
                         <Link  to="#" className="nav-link wd-nav-item">Trending</Link>
