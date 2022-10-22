@@ -41,7 +41,7 @@ const ExploreComponent = () => {
                 </ul>
             </div>
             <div className="row mb-3">
-                <img src={StarShip} className="img-fluid wd-image-borders col px-0 " alt="StarShip page"/>
+                <img src={StarShip} alt="img" className="img-fluid wd-image-borders col px-0 " alt="StarShip page"/>
             </div>
             <span className="position-relative wd-overlay-name">SpaceX's Starship</span>
             <PostSummaryList/>
