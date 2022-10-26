@@ -3,9 +3,10 @@ import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 
 const NavigationSidebar = () => {
+    let active = 'home';
     const {pathname} = useLocation();
     const paths = pathname.split('/')
-    const active = paths[2];
+    active = paths[2];
 
     return (
         <>
@@ -30,7 +31,7 @@ const NavigationSidebar = () => {
                         </Link>
                     </div>
                     <div className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
-                        <Link to="/tuiter/home">
+                        <Link to="home">
                             <div className="row">
                                 <i className="fa fa-home wd-font-color col-xxl-2 col-xl-2"></i>
                                 <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
@@ -86,7 +87,7 @@ const NavigationSidebar = () => {
                         </Link>
                     </div>
                     <div className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
-                        <Link to="#">
+                        <Link to="/tuiter/profile">
                             <div className="row">
                                 <i className="fa fa-user wd-font-color col-xxl-2 col-xl-2"></i>
                                 <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
@@ -94,7 +95,7 @@ const NavigationSidebar = () => {
                             </div>
                         </Link>
                     </div>
-                    <div className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
+                    <div className={`list-group-item ${active === 'more' ? 'active' : ''}`}>
                         <Link to="#">
                             <div className="row">
                                 <i className="fa fa-user wd-font-color col-xxl-2 col-xl-2"></i>

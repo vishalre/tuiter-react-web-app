@@ -1,18 +1,14 @@
-import PostListItem from "./PostListItem"
-import posts from "./postitems.json";
+import React from "react";
+import TuitsList from "../Tuits/TuitsList";
+import WhatsHappening from "./whats-happening";
 
 const HomeComponent = () => {
-    return (
+    return(
         <>
-            <div className="list-group wd-post-list-group">
-                {
-                    posts.map(post => {
-                        return (<PostListItem posts={post}/>);
-                    })
-                }
-            </div>
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
         </>
     );
-}
-
+};
 export default HomeComponent;

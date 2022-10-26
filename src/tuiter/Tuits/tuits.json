@@ -1,0 +1,54 @@
+[
+  {
+    "_id": 1,
+    "topic": "Web Development",
+    "userName": "ReactJS",
+    "handle": "@spacex",
+    "time": "2h",
+    "content": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+    "image": "/images/react_js.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345
+  },
+  {
+    "_id": 2,
+    "topic": "Web Development",
+    "userName": "JavaScript",
+    "handle": "@spacex",
+    "time": "1 day",
+    "content": "JavaScript is programming language that can run on browsers as well as desktops",
+    "image": "/images/javascript.png",
+    "liked": false,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345
+  },
+  {
+    "_id": 3,
+    "topic": "Web Development",
+    "userName": "",
+    "handle": "@spacex",
+    "content": "Tesla FSD finally makes driving obsolete.",
+    "time": "last week",
+    "image": "/images/jquery.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345
+  },
+  {
+    "_id": 4,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "handle": "@spacex",
+    "content": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "time": "4d",
+    "image": "/images/tesla.png",
+    "liked": false,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345
+  }
+]
