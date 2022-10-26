@@ -11,7 +11,7 @@ const PostSummaryItem = (post) => {
                         </div>
                         <div class="m-xxl-0 col-xxl-2 col-xl-2 offset-xl-2 col-lg-2  offset-lg-2 col-md-2 offset-md-2 col-sm-3 offset-sm-1 my-auto ">
                             <div class="card my-auto" style="width: 5em">
-                                <img src="${post.image}" class="card-img-top my-auto">
+                                <img src="${post.image}" class="card-img-top my-auto alt="">
                             </div>
                         </div>
                     </div>

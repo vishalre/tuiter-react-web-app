@@ -38,7 +38,7 @@ const ExploreComponent = () => {
            </ul>
            <!-- image with overlaid text -->
            <div class="row">
-                <img src="../../images/Starship.webp" class="img-fluid wd-image-borders col px-0 ">
+                <img src="../../images/Starship.webp" alt="..." class="img-fluid wd-image-borders col px-0 ">
             </div>
             <span class="position-relative wd-overlay-name" style="color: white; font-weight: bold">
             SpaceX Starship</span>

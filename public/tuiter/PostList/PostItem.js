@@ -4,7 +4,7 @@ const PostItem = (posts) => {
          <div class="list-group-item">
                     <div class="row">
                         <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                            <img src="${posts.image}" class="wd-rounded-images" width="50px" height="50px">
+                            <img src="${posts.image}" class="wd-rounded-images" alt="..." width="50px" height="50px">
                         </div>
                         <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 p-0" style="margin-left: -30px">
                             <span class="wd-font-color">${posts.username}</span>
