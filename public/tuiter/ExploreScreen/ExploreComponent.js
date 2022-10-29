@@ -1,7 +1,7 @@
 import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
-    return(`
+    return (`
            <div class="row">
                 <div class="col-xxl-11 col-xl-11 col-lg-11 col-md-11 col-sm-11 ps-2">
                     <div class="input-group">

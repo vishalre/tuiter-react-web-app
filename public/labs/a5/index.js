@@ -36,7 +36,7 @@ let true4 = numberVariable === 123;
 let true5 = floatingPointNumber !== 321.432;
 let false3 = numberVariable < 100;
 let sortaTrue = '1' == 1
-let notTrue   = '1' === 1
+let notTrue = '1' === 1
 console.log(true1);
 console.log(false1);
 console.log(false2);
@@ -48,11 +48,11 @@ console.log(false3);
 console.log(sortaTrue);
 console.log(notTrue);
 console.log('If else');
-if(true1) {
+if (true1) {
     console.log(true);
 }
 
-if(!false1) {
+if (!false1) {
     console.log('!false1');
 } else {
     console.log('false1');
@@ -62,9 +62,11 @@ let loggedIn = true;
 const greeting = loggedIn ? 'Welcome!' : 'Please login';
 console.log(greeting)
 console.log('Legacy ES5 function')
-function add (a, b) {
+
+function add(a, b) {
     return a + b;
 }
+
 const twoPlusFour = add(2, 4);
 console.log(twoPlusFour);
 
@@ -119,7 +121,7 @@ console.log(numberArray1);
 console.log(stringArray1);
 
 console.log("For loops");
-for (let i=0; i<stringArray1.length; i++) {
+for (let i = 0; i < stringArray1.length; i++) {
     const string1 = stringArray1[i];
     console.log(string1);
 }
@@ -201,7 +203,7 @@ const init = () => {
     const ul = $("#append-new-elements");
     ul.append(newLineItem);
     ul.append(anotherLineItem);
-    const removeLi =$("#remove-this");
+    const removeLi = $("#remove-this");
     const emptyUl = $("#empty-this");
     removeLi.remove();
     emptyUl.empty();

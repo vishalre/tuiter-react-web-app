@@ -30,7 +30,8 @@ const todosSlice = createSlice({
                                        },
                                        todoDoneToggle(state, action) {
                                            const todo = state.find((todo) =>
-                                                                       todo._id === action.payload._id)
+                                                                       todo._id
+                                                                       === action.payload._id)
                                            todo.done = !todo.done
                                        }
                                    }

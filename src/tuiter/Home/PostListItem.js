@@ -1,28 +1,35 @@
 import parse from 'html-react-parser'
 
-const PostListItem = ({posts}) =>{
+const PostListItem = ({posts}) => {
 
-    return(
+    return (
         <div className="list-group-item">
             <div className="row">
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                    <img src={posts.image} alt="img" className="wd-rounded-images" width="50px" height="50px" />
+                    <img src={posts.image} alt="img" className="wd-rounded-images" width="50px"
+                         height="50px"/>
                 </div>
-                <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 p-0" style={{marginLeft:"-30px"}}>
+                <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 p-0"
+                     style={{marginLeft: "-30px"}}>
                     <span className="wd-font-color">{posts.username}</span>
                     <i className="fa fa-circle-check ms-1"></i>
-                    <span className="wd-gray-color ms-2">{posts.handle}&nbsp;-&nbsp;{posts.timeframe}</span><br />
-                    <span className="wd-font-color">{parse(`${posts.content}` )}</span>
+                    <span
+                        className="wd-gray-color ms-2">{posts.handle}&nbsp;-&nbsp;{posts.timeframe}</span><br/>
+                    <span className="wd-font-color">{parse(`${posts.content}`)}</span>
                 </div>
             </div>
             <div className="row mt-3">
-                <div className={`card mx-auto wd-card-bg p-0 ${posts.cardTitle?'wd-card-border':''}`} id="c1" style={{"width": "30rem"}}>
-                    <img src={posts.cardImage} className="card-img-top m-0 p-1" alt="img" style={{"borderRadius": "0px"}} />
-                    {posts.cardTitle?
-                     <div className={`card-body p-3 ${posts.cardTitle?'wd-card-title-border':''}`} id="c2">
+                <div className={`card mx-auto wd-card-bg p-0 ${posts.cardTitle ? 'wd-card-border'
+                                                                               : ''}`} id="c1"
+                     style={{"width": "30rem"}}>
+                    <img src={posts.cardImage} className="card-img-top m-0 p-1" alt="img"
+                         style={{"borderRadius": "0px"}}/>
+                    {posts.cardTitle ?
+                     <div className={`card-body p-3 ${posts.cardTitle ? 'wd-card-title-border'
+                                                                      : ''}`} id="c2">
                          <h5 className="card-title wd-font-color">{posts.cardTitle}</h5>
                          <p className="card-text wd-gray-color">{parse(`${posts.cardBody}`)}</p>
-                     </div>:''}
+                     </div> : ''}
                 </div>
             </div>
             <div className="row mt-2 ms-5">

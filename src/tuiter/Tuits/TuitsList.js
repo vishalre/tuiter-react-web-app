@@ -1,4 +1,4 @@
-import  TuitItem from "./TuitItem";
+import TuitItem from "./TuitItem";
 import {useSelector} from "react-redux";
 
 const TuitList = () => {
@@ -7,7 +7,7 @@ const TuitList = () => {
         <div className="list-group wd-list-group">
             {
                 tuitsArray.map(tuit => {
-                    return(
+                    return (
                         <TuitItem
                             key={tuit._id}
                             tuit={tuit}
@@ -16,6 +16,7 @@ const TuitList = () => {
                 })
             }
         </div>
-    ); }
+    );
+}
 
 export default TuitList;

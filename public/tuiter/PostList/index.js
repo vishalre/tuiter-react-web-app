@@ -2,7 +2,7 @@ import PostItem from "./PostItem.js";
 import posts from "./postitems.js";
 
 const PostList = () => {
-    return(
+    return (
         `
     <div class="list-group wd-post-list-group">
         ${posts.map(p => {
@@ -13,6 +13,5 @@ const PostList = () => {
     `
     );
 }
-
 
 export default PostList;

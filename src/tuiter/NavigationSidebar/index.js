@@ -16,8 +16,10 @@ const NavigationSidebar = () => {
                         <Link to="#">
                             <div className="row">
                                 <i className="fa fa-user wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Tuitter</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Tuitter</span></div>
                             </div>
                         </Link>
                     </div>
@@ -25,8 +27,10 @@ const NavigationSidebar = () => {
                         <Link to="/">
                             <div className="row">
                                 <i className="fa fa-home wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Labs</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Labs</span></div>
                             </div>
                         </Link>
                     </div>
@@ -34,8 +38,10 @@ const NavigationSidebar = () => {
                         <Link to="home">
                             <div className="row">
                                 <i className="fa fa-home wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Home</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Home</span></div>
                             </div>
                         </Link>
                     </div>
@@ -43,8 +49,10 @@ const NavigationSidebar = () => {
                         <Link to="/tuiter/explore">
                             <div className="row">
                                 <i className="fa fa-hashtag col-xxl-2 col-xl-2  wd-font-color"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Explore</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Explore</span></div>
                             </div>
                         </Link>
                     </div>
@@ -53,8 +61,10 @@ const NavigationSidebar = () => {
                         <Link to="#">
                             <div className="row">
                                 <i className="fa fa-bell col-xxl-2 col-xl-2 wd-font-color"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Notifications</span>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Notifications</span>
                                 </div>
                             </div>
                         </Link>
@@ -63,8 +73,10 @@ const NavigationSidebar = () => {
                         <Link to="#">
                             <div className="row">
                                 <i className="fa fa-envelope wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Messages</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Messages</span></div>
                             </div>
                         </Link>
                     </div>
@@ -72,8 +84,10 @@ const NavigationSidebar = () => {
                         <Link to="#">
                             <div className="row">
                                 <i className="fa fa-bookmark wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Bookmarks</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Bookmarks</span></div>
                             </div>
                         </Link>
                     </div>
@@ -81,8 +95,10 @@ const NavigationSidebar = () => {
                         <Link to="#">
                             <div className="row">
                                 <i className="fa fa-list wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Lists</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Lists</span></div>
                             </div>
                         </Link>
                     </div>
@@ -90,8 +106,10 @@ const NavigationSidebar = () => {
                         <Link to="/tuiter/profile">
                             <div className="row">
                                 <i className="fa fa-user wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Profile</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">Profile</span></div>
                             </div>
                         </Link>
                     </div>
@@ -99,15 +117,18 @@ const NavigationSidebar = () => {
                         <Link to="#">
                             <div className="row">
                                 <i className="fa fa-user wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">More</span></div>
+                                <div
+                                    className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                    style={{"bottom": "3px"}}><span
+                                    className="wd-font-color">More</span></div>
                             </div>
                         </Link>
                     </div>
                 </div>
             </div>
             <div className="row px-2">
-                <div className="btn btn-primary col-xxl-12 col-xl-12  mt-2  wd-button-bg wd-rounded-buttons"
+                <div
+                    className="btn btn-primary col-xxl-12 col-xl-12  mt-2  wd-button-bg wd-rounded-buttons"
                 >Tweet
                 </div>
             </div>

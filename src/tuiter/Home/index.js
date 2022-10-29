@@ -3,7 +3,7 @@ import TuitsList from "../Tuits/TuitsList";
 import WhatsHappening from "./whats-happening";
 
 const HomeComponent = () => {
-    return(
+    return (
         <>
             <h4>Home</h4>
             <WhatsHappening/>

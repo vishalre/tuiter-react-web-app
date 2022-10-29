@@ -1,10 +1,10 @@
-import { createSlice } from "@reduxjs/toolkit";
+import {createSlice} from "@reduxjs/toolkit";
 import tuits from '../Tuits/tuits.json';
 
 const currentUser = {
     "userName": "NASA",
     "handle": "@nasa",
-    "image": "nasa.png",
+    "image": "../../images/nasa.jpeg",
 };
 
 const templateTuit = {
@@ -17,28 +17,27 @@ const templateTuit = {
     "likes": 0,
 }
 
-
 const tuitsSlice = createSlice(
     {
-               name: 'tuits',
-               initialState: tuits,
-               reducers: {
-                   createTuit(state, action) {
-                       state.unshift({
-                                         ...action.payload,
-                                         ...templateTuit,
-                                         _id: (new Date()).getTime(),
-                                     })
-                   },
-                   deleteTuit(state, action) {
-                       const index = state
-                           .findIndex(tuit =>
-                                          tuit._id === action.payload);
-                       state.splice(index, 1);
-                   },
+        name: 'tuits',
+        initialState: tuits,
+        reducers: {
+            createTuit(state, action) {
+                state.unshift({
+                                  ...action.payload,
+                                  ...templateTuit,
+                                  _id: (new Date()).getTime(),
+                              })
+            },
+            deleteTuit(state, action) {
+                const index = state
+                    .findIndex(tuit =>
+                                   tuit._id === action.payload);
+                state.splice(index, 1);
+            },
 
-               }
-           });
+        }
+    });
 
 export const {createTuit, deleteTuit} = tuitsSlice.actions;
 export default tuitsSlice.reducer;

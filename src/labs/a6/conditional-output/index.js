@@ -3,8 +3,9 @@ import ConditionalOutputIfElse
     from "./conditional-output-if-else";
 import ConditionalOutputInline
     from "./conditional-output-inline";
+
 const ConditionalOutput = () => {
-    return(
+    return (
         <>
             <ConditionalOutputIfElse/>
             <ConditionalOutputInline/>

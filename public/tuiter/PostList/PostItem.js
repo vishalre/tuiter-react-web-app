@@ -1,5 +1,5 @@
 const PostItem = (posts) => {
-    return(
+    return (
         `
          <div class="list-group-item">
                     <div class="row">
@@ -14,13 +14,15 @@ const PostItem = (posts) => {
                         </div>
                     </div>
                     <div class="row mt-3">
-                        <div class="card mx-auto wd-card-bg p-0 ${posts.cardTitle?'wd-card-border':''}" id="c1" style="width: 30rem;">
+                        <div class="card mx-auto wd-card-bg p-0 ${posts.cardTitle ? 'wd-card-border'
+                                                                                  : ''}" id="c1" style="width: 30rem;">
                             <img src="${posts.cardImage}" class="card-img-top m-0 p-1" alt="..." style="border-radius: 0px">
-                            ${posts.cardTitle?`
-                            <div class="card-body p-3 ${posts.cardTitle?'wd-card-title-border':''}" id="c2">
+                            ${posts.cardTitle ? `
+                            <div class="card-body p-3 ${posts.cardTitle ? 'wd-card-title-border'
+                                                                        : ''}" id="c2">
                                 <h5 class="card-title wd-font-color ">${posts.cardTitle}</h5>
                                 <p class="card-text wd-gray-color">${posts.cardBody}</p>
-                            </div>`:''}
+                            </div>` : ''}
                         </div>
                     </div>
                     <div class="row mt-2 ms-5">

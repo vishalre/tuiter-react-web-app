@@ -1,4 +1,4 @@
-import  PostSummaryItem from "./PostSummaryItem";
+import PostSummaryItem from "./PostSummaryItem";
 import {useSelector} from "react-redux";
 
 const PostSummaryList = () => {
@@ -7,7 +7,7 @@ const PostSummaryList = () => {
         <div className="list-group wd-list-group">
             {
                 postsArray.map(post => {
-                    return(
+                    return (
                         <PostSummaryItem
                             key={post._id}
                             post={post}
@@ -16,6 +16,7 @@ const PostSummaryList = () => {
                 })
             }
         </div>
-    ); }
+    );
+}
 
 export default PostSummaryList;

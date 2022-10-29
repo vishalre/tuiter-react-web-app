@@ -136,114 +136,122 @@ body {
 .wd-icon-click {
     text-decoration: none;
 }
-.wd-zero-right-border{
+
+.wd-zero-right-border {
     border-right: 0px transparent;
 }
-.wd-rounded-buttons{
+
+.wd-rounded-buttons {
     border-radius: 20px;
 }
 
-.fg-color-blue{
+.fg-color-blue {
     color: mediumslateblue;
 }
 
-.wd-overlay-name{
+.wd-overlay-name {
     bottom: 70px;
     color: rgb(4, 48, 44);
     font-size: 40px;
 }
 
-.wd-gray-color{
-    color:gray;
+.wd-gray-color {
+    color: gray;
 }
 
-.wd-rounded-images{
+.wd-rounded-images {
     border-radius: 50%;
 }
 
-body { background-color: black }
+body {
+    background-color: black
+}
 
-.wd-list-group .list-group-item{
+.wd-list-group .list-group-item {
     background-color: #343a40;
 }
 
-.wd-post-list-group .list-group-item{
+.wd-post-list-group .list-group-item {
     background-color: black;
 }
 
-.wd-card-bg{
+.wd-card-bg {
     background-color: black;
 }
-.wd-nav-item{
+
+.wd-nav-item {
     color: white;
 }
 
-.wd-nav-bg-border{
+.wd-nav-bg-border {
     border-bottom: 0;
 }
 
-.wd-main-content-images{
+.wd-main-content-images {
     border-radius: 10px;
 }
 
-.wd-font-color{
+.wd-font-color {
     color: white;
 }
 
-.wd-search-bar-color{
+.wd-search-bar-color {
     background-color: white;
     border: none;
 }
 
-.wd-foreground-text{
-    color:#c9d1d9;
+.wd-foreground-text {
+    color: #c9d1d9;
 }
 
-.wd-image-borders{
+.wd-image-borders {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
 
-.wd-button-bg:hover, .wd-button-bg{
+.wd-button-bg:hover, .wd-button-bg {
     background-color: rgb(114, 145, 196);
     border: none;
 }
 
-.wd-font-white{
+.wd-font-white {
     color: white;
 }
 
-.wd-follow-button{
+.wd-follow-button {
     background-color: white;
     color: black;
 }
 
-.list-group-item.active{
+.list-group-item.active {
     background-color: rgb(114, 145, 196);
     color: white;
-    border:none;
+    border: none;
 }
 
-.nav-item.active{
+.nav-item.active {
     background-color: rgb(114, 145, 196);
 }
-.nav-link:hover{
+
+.nav-link:hover {
     border: none;
     color: white;
 }
-.wd-main-content{
+
+.wd-main-content {
     background-color: #343a40;
 }
 
-.wd-card-border{
+.wd-card-border {
     border-radius: 10px;
     border: 1px solid gray;
 
 }
-.wd-card-title-border{
-    border-top:1px solid gray;
+
+.wd-card-title-border {
+    border-top: 1px solid gray;
 }
 
-a{
+a {
     text-decoration: none;
 }

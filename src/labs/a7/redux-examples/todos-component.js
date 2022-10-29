@@ -28,7 +28,7 @@ const Todos = () => {
         setTodo(newTodo);
     }
 
-    return(
+    return (
         <>
             <h3>Todos</h3>
             <ul className="list-group">
@@ -36,7 +36,8 @@ const Todos = () => {
                     <button onClick={createTodoClickHandler}
                             className="btn btn-primary w-25
                           float-end">
-                        Create</button>
+                        Create
+                    </button>
                     <input
                         onChange={todoChangeHandler}
                         value={todo.do}
