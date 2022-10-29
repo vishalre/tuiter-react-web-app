@@ -6,7 +6,7 @@ const PostListItem = ({posts}) => {
         <div className="list-group-item">
             <div className="row">
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                    <img src={posts.image} alt="img" className="wd-rounded-images" width="50px"
+                    <img src={process.env.PUBLIC_URL + posts.image} alt="img" className="wd-rounded-images" width="50px"
                          height="50px"/>
                 </div>
                 <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 p-0"
@@ -22,7 +22,7 @@ const PostListItem = ({posts}) => {
                 <div className={`card mx-auto wd-card-bg p-0 ${posts.cardTitle ? 'wd-card-border'
                                                                                : ''}`} id="c1"
                      style={{"width": "30rem"}}>
-                    <img src={posts.cardImage} className="card-img-top m-0 p-1" alt="img"
+                    <img src={process.env.PUBLIC_URL + posts.cardImage} className="card-img-top m-0 p-1" alt="img"
                          style={{"borderRadius": "0px"}}/>
                     {posts.cardTitle ?
                      <div className={`card-body p-3 ${posts.cardTitle ? 'wd-card-title-border'

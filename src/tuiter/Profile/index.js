@@ -39,12 +39,12 @@ const Profile = () => {
                 </div>
             </div>
             <div className="row">
-                <img src="../../images/spidermancover.jpg" alt="..." className="img-fluid"
+                <img src={process.env.PUBLIC_URL + '/images/spidermancover.jpg'} alt="..." className="img-fluid"
                      width="100%" height="200px"/>
             </div>
             <div className="row">
                 <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10">
-                    <img src="../../images/Starship.webp" alt="..."
+                    <img src={process.env.PUBLIC_URL + '/images/Starship.webp'} alt="..."
                          className="wd-rounded-images position-relative" height="100px"
                          width="100px" style={{"bottom": "1rem"}}/>
                 </div>

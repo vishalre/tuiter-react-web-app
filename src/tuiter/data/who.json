@@ -1,26 +1,26 @@
 [
   {
-    "picture": "images/java_icon.png",
+    "picture": "/images/java_icon.png",
     "userName": "Java",
     "handle": "Java"
   },
   {
-    "picture": "./images/relativity_space.webp",
+    "picture": "/images/relativity_space.webp",
     "userName": "Relativity Space",
     "handle": "relativityspace"
   },
   {
-    "picture": "./images/galactic.png",
+    "picture": "/images/galactic.png",
     "userName": "Virgin Galactic",
     "handle": "virgingalactic"
   },
   {
-    "picture": "./images/nasa.jpeg",
+    "picture": "/images/nasa.jpeg",
     "userName": "NASA",
     "handle": "NASA"
   },
   {
-    "picture": "./images/tesla.png",
+    "picture": "/images/tesla.png",
     "userName": "Tesla",
     "handle": "Tesla"
   }
