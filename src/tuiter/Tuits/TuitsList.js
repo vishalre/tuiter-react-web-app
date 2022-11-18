@@ -15,11 +15,23 @@ const TuitList = () => {
 
     return (
         <div className="list-group wd-list-group">
+            <ul className="list-group">
+                {
+                    loading &&
+                    <li className="list-group-item">
+                        Loading...
+                    </li>
+                }
+            </ul>
             {
-                loading &&
-                <li className="list-group-item">
-                    Loading...
-                </li>
+                tuits.map(tuit => {
+                    return (
+                        <TuitItem
+                            key={tuit._id}
+                            tuit={tuit}
+                        />
+                    );
+                })
             }
         </div>
     );
