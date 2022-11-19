@@ -24,7 +24,7 @@ const TuitItem = ({tuit}) => {
                         className="wd-gray-color ms-2">{tuit.handle}&nbsp;-&nbsp;{tuit.time}</span>
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(tuit._id)}></i><br/>
-                    <span className="wd-font-color">{parse(`${tuit.content}`)}</span>
+                    <span className="wd-font-color">{parse(`${tuit.tuit}`)}</span>
                 </div>
             </div>
             <TuitStats
