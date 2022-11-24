@@ -9,15 +9,16 @@ const TuitStats = ({stats}) => {
     const likeClickHandler = () => {
         setIsActive(true);
         dispatch(updateTuitThunk({
-                      ...stats,
-                      likes: stats.likes + 1
-                  }));
+                                     ...stats,
+                                     likes: stats.likes + 1,
+                                     liked: true
+                                 }));
     }
     const dislikeClickHandler = () => {
         dispatch(updateTuitThunk({
-                      ...stats,
-                      dislikes: stats.dislikes + 1
-                  }));
+                                     ...stats,
+                                     dislikes: stats.dislikes + 1
+                                 }));
     }
     return (
         <div className="row mt-2 ms-5">
@@ -32,7 +33,9 @@ const TuitStats = ({stats}) => {
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
                 <i onClick={likeClickHandler}
                    className='fa fa-heart'
-                   style={{"color": `${(stats.liked === true || isActive === true) ? "red" : "gray"}`}}></i>
+                   style={{
+                       "color": `${(stats.liked === true || isActive === true) ? "red" : "gray"}`
+                   }}></i>
                 <span className='ms-1 wd-gray-color'>{stats.likes}</span>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">

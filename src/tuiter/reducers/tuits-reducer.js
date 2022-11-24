@@ -3,7 +3,6 @@ import tuits from '../Tuits/tuits.json';
 import {updateTuitThunk, createTuitThunk, deleteTuitThunk, findTuitsThunk}
     from "../../services/tuits-thunks";
 
-
 const initialState = {
     tuits: [],
     loading: false
@@ -36,7 +35,7 @@ const tuitsSlice = createSlice(
                     state.tuits = []
                 },
             [findTuitsThunk.fulfilled]:
-                (state, { payload }) => {
+                (state, {payload}) => {
                     state.loading = false
                     state.tuits = payload
                 },
@@ -44,19 +43,19 @@ const tuitsSlice = createSlice(
                 (state) => {
                     state.loading = false
                 },
-            [deleteTuitThunk.fulfilled] :
-                (state, { payload }) => {
+            [deleteTuitThunk.fulfilled]:
+                (state, {payload}) => {
                     state.loading = false
                     state.tuits = state.tuits
                         .filter(t => t._id !== payload)
                 },
             [createTuitThunk.fulfilled]:
-                (state, { payload }) => {
+                (state, {payload}) => {
                     state.loading = false
                     state.tuits.push(payload)
                 },
             [updateTuitThunk.fulfilled]:
-                (state, { payload }) => {
+                (state, {payload}) => {
                     state.loading = false
                     const tuitNdx = state.tuits
                         .findIndex((t) => t._id === payload._id)

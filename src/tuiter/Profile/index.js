@@ -39,7 +39,8 @@ const Profile = () => {
                 </div>
             </div>
             <div className="row">
-                <img src={process.env.PUBLIC_URL + '/images/spidermancover.jpg'} alt="..." className="img-fluid"
+                <img src={process.env.PUBLIC_URL + '/images/spidermancover.jpg'} alt="..."
+                     className="img-fluid"
                      width="100%" height="200px"/>
             </div>
             <div className="row">

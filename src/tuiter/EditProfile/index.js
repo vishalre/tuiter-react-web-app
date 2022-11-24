@@ -37,7 +37,8 @@ const EditProfile = () => {
                 </div>
             </div>
             <div className="row mt-1">
-                <img src={process.env.PUBLIC_URL + '/images/spidermancover.jpg'} className="img-fluid" alt="..."
+                <img src={process.env.PUBLIC_URL + '/images/spidermancover.jpg'}
+                     className="img-fluid" alt="..."
                      width="100%" height="200px"/>
             </div>
             <img src={process.env.PUBLIC_URL + '/images/Starship.webp'} alt="..."
